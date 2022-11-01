@@ -1,0 +1,59 @@
+{
+    "type": "model",
+    "series": "16",
+    "authority-id": "2gDJQazkM4U7WN6GBq1OMHdajLxKjSbU",
+    "brand-id": "2gDJQazkM4U7WN6GBq1OMHdajLxKjSbU",
+    "model": "sipeed-lichee-rv",
+    "architecture": "riscv64",
+    "timestamp": "2022-05-24T23:50:41+00:00",
+    "base": "core22",
+    "grade": "dangerous",
+    "system-user-authority": "*",
+    "snaps": [
+        {
+            "name": "sipeed-lichee-rv-gadget",
+            "type": "gadget"
+        },
+        {
+            "name": "sipeed-lichee-rv-kernel",
+            "type": "kernel"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/edge",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "core22",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        },
+        {
+            "name": "core20",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+        },
+        {
+            "name": "lxd",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "J60k4JY0HppjwOjW8dZdYc8obXKxujRu"
+        },
+        {
+            "name": "ubuntu-frame",
+            "type": "app",
+            "default-channel": "latest/beta",
+            "id": "BPZbvWzvoMTrpec4goCXlckLe2IhfthK"
+        },
+        {
+            "name": "mesa-core20",
+            "type": "app",
+            "default-channel": "latest/beta",
+            "id": "pDDsAW9ifzZnogboHJu3udsA6LsbGeGP"
+        }
+    ]
+}
+

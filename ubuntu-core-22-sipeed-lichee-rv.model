@@ -1,0 +1,59 @@
+type: model
+authority-id: 2gDJQazkM4U7WN6GBq1OMHdajLxKjSbU
+series: 16
+brand-id: 2gDJQazkM4U7WN6GBq1OMHdajLxKjSbU
+model: sipeed-lichee-rv
+architecture: riscv64
+base: core22
+grade: dangerous
+snaps:
+  -
+    name: sipeed-lichee-rv-gadget
+    type: gadget
+  -
+    name: sipeed-lichee-rv-kernel
+    type: kernel
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/edge
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/edge
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/stable
+    id: J60k4JY0HppjwOjW8dZdYc8obXKxujRu
+    name: lxd
+    type: app
+  -
+    default-channel: latest/beta
+    id: BPZbvWzvoMTrpec4goCXlckLe2IhfthK
+    name: ubuntu-frame
+    type: app
+  -
+    default-channel: latest/beta
+    id: pDDsAW9ifzZnogboHJu3udsA6LsbGeGP
+    name: mesa-core20
+    type: app
+system-user-authority: *
+timestamp: 2022-05-24T23:50:41+00:00
+sign-key-sha3-384: b3nqeqXlMguTXKdtOkquL-UyzC2ENpcBtuxDhSek0m28Em0ZpxKlKmB1ue7qnFQy
+
+AcLBcwQAAQoAHRYhBAfMPbtJP1PZO9tXd4TmOHBjj6Y0BQJjYReOAAoJEITmOHBjj6Y0KvIQAK8o
+u0qCt5r32tlnoLQyzoE4YXPKZBtL+VGZpfrmdOg51tDgjXM0tPGZcuqex6+iQlR+SbFPI7v9WEH7
+kUhxoaW5PqT6wDbZTd186pRBZ+hlTqvP8LpA3xZGxU9MmRwRWdleMj2378tRrGnL0soyCQwFCy3J
+Kgp+AM9mh3rk0XKFzficsaxjxlGu1EngtEwhbKnWYOs9SFo6m8rHa9uLZDADvGLFWUfJGhm290Jl
+McCQ7kJ+IcsgutF0jgqffKuNo2GtRAarp+fxaWxfS4y/l7DT+RQrZeHp0geSFdavXP3ejM7DnZnq
+xBDjtaDK+GdnQrLga7BM8tcpNLZpDgLXDeL4oq25yXEaYwqK/U+bBFVp6CiejOUxAQWmG/nKMXwG
+6O6zMta2zc3kJdX+4DuNBHnlmab1pwd1zk4XLMP3s6gma2EdhX6IJoNbkeUNsIJS9An96cXvrqnU
+NWkKFC54JiX+2Q5h1HXqQny5xbdFTsjcLdnApRscSEJAdb9CqSBYChr+u8Y/P+ZMQyKkzgOnpd6m
+24QI5q83JkbLtUoec2+du699USizCVkRp9sUUytpkeMHxq96xc2GTS1FhjrKAUwBZdPmruTYdmXa
++ahRzc1Ccni0EzbESCYS4KYa6Mg/PITTeRtoxf+xGJWpWQ+P++fvdp0It5HczjLjqNghspPK
